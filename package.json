@@ -1,0 +1,22 @@
+{
+  "name": "vue-i18n-minimal-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vue-cli-service build --mode production",
+    "serve": "vue-cli-service serve",
+    "pro": "vue-cli-service build --mode production"
+  },
+  "dependencies": {
+    "vue": "3.3.4",
+    "vue-i18n": "9.10.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/cli-service": "~4.5.14",
+    "terser-webpack-plugin": "^4.1.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
